@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Calculator</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery.plugin.js"></script>
+<script src="jquery.calculator.js"></script>
+<script>
+$(function () {
+	$.calculator.setDefaults({showOn: 'both', buttonImageOnly: true, buttonImage: 'calculator.png'});
+	$('#basicCalculator').calculator();
+	$('#sciCalculator').calculator({layout: $.calculator.scientificLayout});
+});
+</script>
+</head>
+<body>
+<H1>サンプルページ</H1>
+<p><input type="text" id="basicCalculator"></p>
+</body>
+</html>

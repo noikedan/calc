@@ -1,0 +1,183 @@
+  <style>
+* {
+    font-family: 'Inconsolata', monospace;
+    color: #555;
+　}
+body
+{
+      background-color: white;
+}
+body > * {
+    margin: 3px;
+    padding: 10px;
+}
+.container {
+margin: auto;
+padding:auto;
+display: grid;
+grid-template-columns: 40px 40px 40px 40px;
+grid-template-rows: 50x 40px 40px 40px 40px 40px;
+width: 220px;
+background-color: #E0DEDA;
+grid-gap: 20px;
+    margin: 3px;
+    padding: 10px;
+}
+.container > * {
+align : center;
+}
+#boxinputLabel{
+grid-column: 1 / span 4;
+grid-row-start: 1;
+grid-row-end: 2;
+background-color: #DFE9E9;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#boxAC {
+grid-column: 1 / span 3;
+grid-row-start: 2;
+grid-row-end: 2;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#box÷ {
+width:10%;
+grid-column: 4/ span 1;
+grid-row:2;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#box7 {
+width:10%;
+grid-column: 1/ 4;
+grid-row:3;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+#box8 {
+width:10%;
+grid-column: 2/ 4;
+grid-row:3;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#box9 {
+width:10%;
+grid-column: 3/ 4;
+grid-row:3;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#box× {
+width:10%;
+grid-column: 4/ 4;
+grid-row:3;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#box4{
+width:10%;
+grid-column: 1/ 4;
+grid-row:4;
+background-color: white;
+grid-gap: 10px;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#box5{
+width:10%;
+grid-column: 2/ 4;
+grid-row:4;
+background-color: white;
+grid-gap: 10px;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#box6{
+width:10%;
+grid-column: 3/ 4;
+grid-row:4;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#boxMinus{
+width:10%;
+grid-column: 4/ 4;
+grid-row:4;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#box1{
+width:10%;
+grid-column: 1/ 4;
+grid-row:5;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#box2{
+width:10%;
+grid-column: 2/ 4;
+grid-row:5;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#box3{
+width:10%;
+grid-column: 3/ 4;
+grid-row:5;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#boxPlus{
+width:10%;
+grid-column: 4 / 4;
+grid-row:5;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#box0{
+grid-column:1 / span 2;
+grid-row:6;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#boxTen{
+width:10%;
+grid-column: 3/ 4;
+grid-row:6;
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+#boxEqual{
+width:10%;
+grid-column: 4/ 4;
+grid-row:6;
+background-color: white;
+grid-gap: 10px;
+padding-left: 1rem;
+padding-right: 1rem;
+}
